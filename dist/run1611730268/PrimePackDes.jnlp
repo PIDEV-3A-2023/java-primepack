@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PrimePackDes.jnlp">
+  <information>
+    <title>PrimePackDes</title>
+    <vendor>Houssem Charef</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PrimePackDes.jar" size="126392" download="eager" />
+    <jar href="lib\fontawesomefx-glyphsbrowser-all-1.0.jar" size="1662483" download="eager" />
+    <jar href="lib\gson-2.8.0.jar" size="231952" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.27.jar" size="2475087" download="eager" />
+    <jar href="lib\qrgen-1.2.jar" size="5245" download="eager" />
+    <jar href="lib\stripe-java-20.101.0.jar" size="4938028" download="eager" />
+    <jar href="lib\zxing-core-1.7.jar" size="352719" download="eager" />
+    <jar href="lib\zxing-j2se-1.7.jar" size="22051" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="primepackdes.PrimePackDes"  name="PrimePackDes" />
+  <update check="always"/>
+</jnlp>
