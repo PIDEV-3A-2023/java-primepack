@@ -8,22 +8,22 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox fx:id="postView" alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditPostController">
+<VBox fx:id="postView" alignment="CENTER" spacing="10" style="-fx-background-color: #50c1c1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditPostController">
     <padding>
         <Insets bottom="10" left="10" right="10" top="10" />
     </padding>
-    <Label style="-fx-font-size: 16pt;" text="Edit post" />
+    <Label style="-fx-font-size: 16pt;" text="Edit post" textFill="#eeeaea" />
     
      <TextField fx:id="themeField" promptText="Theme" />
     <TextArea fx:id="contentArea" promptText="Content" />
   
-      <Button fx:id="chooseImageButton" onAction="#chooseImage" text="Choose Image" />
+      <Button fx:id="chooseImageButton" onAction="#chooseImage" style="-fx-background-color: #0598ff;" text="Choose Image" />
     <TextField fx:id="imageTextField" editable="false" promptText="Image Name" />
     
 
    
      <HBox prefHeight="0.0" prefWidth="567.0" spacing="10.0">
-                 <Button fx:id="saveButton" onAction="#updatePost" text="Update" />
-                 <Button fx:id="backButton" onAction="#back" text="Back" />
+                 <Button fx:id="saveButton" onAction="#updatePost" style="-fx-background-color: #0598ff;" text="Update" />
+                 <Button fx:id="backButton" onAction="#back" style="-fx-background-color: #0598ff;" text="Back" />
             </HBox>
 </VBox>

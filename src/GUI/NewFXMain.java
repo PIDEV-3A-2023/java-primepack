@@ -30,13 +30,13 @@ public class NewFXMain extends Application {
      
         try {
              
-         //   FXMLLoader loader = new FXMLLoader(getClass().getResource("Estimation.fxml"));  
+         //  FXMLLoader loader = new FXMLLoader(getClass().getResource("Estimation.fxml"));  
         //    FXMLLoader loader = new FXMLLoader(getClass().getResource("CarbonMotorBike.fxml"));  
           //  FXMLLoader loader = new FXMLLoader(getClass().getResource("CarbonFlight.fxml"));  
         //  FXMLLoader loader = new FXMLLoader(getClass().getResource("CarbonCar.fxml"));  
-     //   FXMLLoader loader = new FXMLLoader(getClass().getResource("ShowCommentBack.fxml"));  
-    FXMLLoader loader = new FXMLLoader(getClass().getResource("postFront.fxml"));
-  // FXMLLoader loader = new FXMLLoader(getClass().getResource("PostBack.fxml"));
+    //   FXMLLoader loader = new FXMLLoader(getClass().getResource("ShowCommentBack.fxml"));  
+  FXMLLoader loader = new FXMLLoader(getClass().getResource("postFront.fxml"));
+//  FXMLLoader loader = new FXMLLoader(getClass().getResource("PostBack.fxml"));
          //FXMLLoader loader = new FXMLLoader(getClass().getResource("PostAdd.fxml"));
     //   loader.setRoot(new AnchorPane());
          Parent root = loader.load();
