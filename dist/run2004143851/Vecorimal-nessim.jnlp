@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Vecorimal-nessim.jnlp">
+  <information>
+    <title>Vecorimal-nessim</title>
+    <vendor>Houssem Charef</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Vecorimal-nessim.jar" size="169802" download="eager" />
+    <jar href="lib\TrayNotification.jar" size="41019" download="eager" />
+    <jar href="lib\fontawesomefx-glyphsbrowser-all-1.0.jar" size="1662483" download="eager" />
+    <jar href="lib\itextpdf-5.5.9.jar" size="2287148" download="eager" />
+    <jar href="lib\jfxtras-agenda-8.0-r4.jar" size="97786" download="eager" />
+    <jar href="lib\jfxtras-all-8.0-r4.jar" size="261" download="eager" />
+    <jar href="lib\jfxtras-common-8.0-r4.jar" size="47615" download="eager" />
+    <jar href="lib\jfxtras-controls-8.0-r4.jar" size="225724" download="eager" />
+    <jar href="lib\jfxtras-fxml-8.0-r4.jar" size="2095" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.27.jar" size="2475087" download="eager" />
+    <jar href="lib\nexu.jar" size="24338416" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Vecorimal-nessim" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="vecorimal.nessim.VecorimalNessim"  name="Vecorimal-nessim" />
+  <update check="always"/>
+</jnlp>
