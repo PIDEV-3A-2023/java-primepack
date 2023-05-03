@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="762.0" prefWidth="1111.0" style="-fx-background-color: #50c1c1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PostBackController">
+    
+    <children>
+
+      <Button fx:id="tfremove" layoutX="1026.0" layoutY="722.0" mnemonicParsing="false" onAction="#remove" style="-fx-background-color: #0598ff;" text="Supprimer" />
+      <Button fx:id="tfupdate" layoutX="940.0" layoutY="722.0" mnemonicParsing="false" onAction="#redirectToUpdate" style="-fx-background-color: #0598ff;" text="Modifier" />
+   
+      <TableView fx:id="tftableview" layoutX="39.0" layoutY="147.0" prefHeight="566.0" prefWidth="1059.0">
+        <columns>
+            
+         
+          <TableColumn fx:id="tctheme" prefWidth="200.0" text="Theme" />
+             <TableColumn fx:id="tccontenu" prefWidth="140.0" text="Contenu" />
+            <TableColumn fx:id="tcdate" prefWidth="133.0" text="Date Creation" />
+            <TableColumn fx:id="images" prefWidth="226.4000244140625" text="Image" />
+           
+        
+        </columns>
+      </TableView>
+   
+      <Text fill="#eeeaea" layoutX="39.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Posts" wrappingWidth="371.892578125">
+         <font>
+            <Font name="System Bold Italic" size="56.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+        <HBox alignment="CENTER" spacing="10" />    
+      <Button fx:id="tfadd" layoutX="39.0" layoutY="722.0" mnemonicParsing="false" onAction="#redirectToAdd" style="-fx-background-color: #0598ff;" text="Ajouter" />
+      <Button fx:id="tfadd1" layoutX="120.0" layoutY="722.0" mnemonicParsing="false" onAction="#displayStats" style="-fx-background-color: #0598ff;" text="Stats" />
+ <TextField fx:id="searchField" layoutX="906.0" layoutY="109.0" promptText="Search by post theme" style="-fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+ <FontAwesomeIconView glyphName="SEARCH" layoutX="1065.0" layoutY="126.0" />
+   </children>
+    
+</AnchorPane>

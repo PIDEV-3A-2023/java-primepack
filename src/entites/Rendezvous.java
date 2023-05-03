@@ -1,0 +1,72 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package entites;
+
+import java.sql.Date;
+
+/**
+ *
+ * @author expert
+ */
+public class Rendezvous {
+     private int id,duree;
+     private Date date;
+     private Animal animal;
+
+    public Animal getAnimal() {
+        return animal;
+    }
+
+    public void setAnimal(Animal animal) {
+        this.animal = animal;
+    }
+
+    public Rendezvous() {
+    }
+
+    public Rendezvous(int id, int duree, Date date,Animal animal) {
+        this.id = id;
+        this.duree = duree;
+        this.date = date;
+        this.animal=animal;
+    }
+
+    public Rendezvous(int duree, Date date) {
+        this.duree = duree;
+        this.date = date;
+    }
+
+    @Override
+    public String toString() {
+        return "Rendezvous{" + "id=" + id + ", duree=" + duree + ", date=" + date + '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getDuree() {
+        return duree;
+    }
+
+    public void setDuree(int duree) {
+        this.duree = duree;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+     
+   
+}
